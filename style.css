@@ -1,0 +1,112 @@
+@font-face {
+  font-family: Lexend_Deca;
+  src: url(/Lexend_Deca/static/LexendDeca-ExtraLight.ttf);
+}
+@font-face {
+  font-family: bigShoulders;
+  src: url(/Big_Shoulders_Display/static/BigShouldersDisplay-Bold.ttf);
+}
+* {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+}
+
+article {
+  padding: 20px 15px 20px 15px;
+  margin: 0;
+  color: white;
+  display: inline-block;
+  width: 230px;
+  height: 423px;
+}
+img {
+  padding-left: 15px;
+  padding-top: 18px;
+  display: flex;
+}
+section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+h1 {
+  padding-top: 25px;
+  display: flex;
+  flex-flow: left;
+  padding-left: 19px;
+  font-family: bigShoulders;
+  letter-spacing: 1.2;
+  font-weight: 400;
+  font-size: 36px;
+}
+p {
+  text-align: left;
+  font-family: Lexend_Deca;
+  font-size: 14.01px;
+  word-spacing: 2px;
+  line-height: 1.5;
+  color: hsl(0, 0%, 95%);
+  padding-left: 20px;
+  padding-top: 25px;
+  line-height: 23px;
+}
+button {
+  width: 125px;
+  height: 40px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 40px;
+  margin-top: 105px;
+  margin-right: 65px;
+}
+button:hover {
+  cursor: pointer;
+}
+#sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+#SUVS {
+  background-color: hsl(184, 100%, 22%);
+}
+#luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+#sedanButton {
+  color: hsl(31, 77%, 52%);
+}
+#sedanButton:active {
+  cursor: pointer;
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  transition-duration: 70ms;
+}
+#suvButton {
+  color: hsl(184, 100%, 22%);
+}
+#suvButton:active {
+  cursor: pointer;
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  transition-duration: 70ms;
+}
+
+#luxuryButton {
+  color: hsl(179, 100%, 13%);
+}
+#luxuryButton:active {
+  cursor: pointer;
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  transition-duration: 70ms;
+}
